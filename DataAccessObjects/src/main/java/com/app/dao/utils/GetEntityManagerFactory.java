@@ -12,7 +12,7 @@ public class GetEntityManagerFactory {
 	
 	public static EntityManagerFactory getInstance(){
 	    if(_instance == null){
-	    	 System.out.println("EntityManagerFactory _instance is null. Creating new object");
+	    	 //System.out.println("EntityManagerFactory _instance is null. Creating new object");
 	    	_instance = Persistence.createEntityManagerFactory("mkpMongo");
 	    }
 	    return _instance;
