@@ -1,0 +1,30 @@
+17:36:04.947 [main] TRACE com.app.dao.dbservice.impl.UserDAOImpl - Start findAllUser... 
+"17:36:06.986 [main] TRACE com.app.dao.dbservice.impl.UserDAOImpl - End BlogDAOImpl.findAllUser  userListSize 1
+"18:58:23.788 [main] TRACE com.app.dao.dbservice.impl.UserDAOImpl - Start addUser
+"18:58:25.527 [main] TRACE com.app.dao.dbservice.impl.UserDAOImpl - Get Transaction Object
+"19:00:18.944 [main] TRACE com.app.dao.dbservice.impl.UserDAOImpl - Start findAllUser... 
+"19:00:20.776 [main] TRACE com.app.dao.dbservice.impl.UserDAOImpl - End BlogDAOImpl.findAllUser  userListSize 2
+"12:20:31.312 [main] TRACE com.app.dao.dbservice.impl.UserDAOImpl - Start addUser
+"12:20:33.153 [main] TRACE com.app.dao.dbservice.impl.UserDAOImpl - Get Transaction Object
+"12:23:05.406 [main] TRACE com.app.dao.dbservice.impl.UserDAOImpl - Start addUser
+"12:23:06.838 [main] TRACE com.app.dao.dbservice.impl.UserDAOImpl - Get Transaction Object
+"12:25:29.836 [main] TRACE com.app.dao.dbservice.impl.BlogDAOImpl - Start addBlog
+"12:25:31.179 [main] TRACE com.app.dao.dbservice.impl.BlogDAOImpl - Get Transaction Object
+"12:28:04.533 [main] TRACE com.app.dao.dbservice.impl.BlogDAOImpl - Start addBlog
+"12:28:05.805 [main] TRACE com.app.dao.dbservice.impl.BlogDAOImpl - Get Transaction Object
+"12:38:39.142 [main] TRACE com.app.dao.dbservice.impl.BlogDAOImpl - Start findBlogByPublishedDateRange 
+"12:38:40.728 [main] TRACE com.app.dao.dbservice.impl.BlogDAOImpl - Get Trans
+"12:38:41.211 [main] TRACE com.app.dao.dbservice.impl.BlogDAOImpl - End BlogDAOImpl.findBlogByPublishedDateRange 2 
+"12:39:41.729 [main] TRACE com.app.dao.dbservice.impl.BlogDAOImpl - Start findBlogByPublishedDateRange 
+"12:39:42.892 [main] TRACE com.app.dao.dbservice.impl.BlogDAOImpl - Get Trans
+"12:39:43.177 [main] TRACE com.app.dao.dbservice.impl.BlogDAOImpl - End BlogDAOImpl.findBlogByPublishedDateRange 2 
+"15:41:31.546 [main] TRACE com.app.dao.dbservice.impl.BlogDAOImpl - Start addBlog
+"15:41:33.197 [main] TRACE com.app.dao.dbservice.impl.BlogDAOImpl - Get Transaction Object
+"15:41:33.201 [main] TRACE com.app.dao.dbservice.impl.BlogDAOImpl -  Exception in addBlog javax.persistence.PersistenceException: org.hibernate.PersistentObjectException: detached entity passed to persist: com.app.dao.domain.BlogBO
+"16:10:46.099 [main] TRACE com.app.dao.dbservice.impl.BlogDAOImpl - Start updateBlog
+"16:10:47.717 [main] TRACE com.app.dao.dbservice.impl.BlogDAOImpl - Get Transaction Object
+"16:14:23.130 [main] TRACE com.app.dao.dbservice.impl.BlogDAOImpl - Start updateBlog
+"16:14:25.154 [main] TRACE com.app.dao.dbservice.impl.BlogDAOImpl - Get Transaction Object
+"16:20:35.337 [main] TRACE com.app.dao.dbservice.impl.BlogDAOImpl - Start updateBlog
+"16:20:37.048 [main] TRACE com.app.dao.dbservice.impl.BlogDAOImpl - Get Transaction Object
+"
