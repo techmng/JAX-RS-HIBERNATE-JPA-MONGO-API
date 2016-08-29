@@ -5,17 +5,17 @@ import javax.persistence.Persistence;
 
 public class GetEntityManagerFactory {
 
-	private static EntityManagerFactory _instance;
+	private static EntityManagerFactory _instanceEmFactory;
 	private GetEntityManagerFactory() {
 		// TODO Auto-generated constructor stub
 	}
 	
 	public static EntityManagerFactory getInstance(){
-	    if(_instance == null){
+	    if(_instanceEmFactory == null){
 	    	 //System.out.println("EntityManagerFactory _instance is null. Creating new object");
-	    	_instance = Persistence.createEntityManagerFactory("mkpMongo");
+	    	_instanceEmFactory = Persistence.createEntityManagerFactory("mkpMongo");
 	    }
-	    return _instance;
+	    return _instanceEmFactory;
 	
 	}
 	
